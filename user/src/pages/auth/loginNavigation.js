@@ -26,10 +26,10 @@ function LoginNav() {
         //localStorage.setItem("email", mail);
         
         //alert("login successful\ntoken="+token);
-        //history.push("/welcome");
+        //history.push("/welcome"); 
       })
       .catch((error) => {
-        alert(error);
+        alert("error: "+error);
            /*
         let errors = Object.keys(error.response.data);
         errors.forEach((element) => {
