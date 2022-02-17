@@ -116,7 +116,7 @@ function NavBar() {
   const [user, setUser] = useState();
 
   useEffect(() => {
-    //load subcategories from DB
+    //load sub-categories from DB
     axios.get("http://localhost:3000/api/admin/allCategorys").then((response) => {
       
         response.data.forEach(sub => {
