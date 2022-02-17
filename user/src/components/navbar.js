@@ -27,7 +27,7 @@ let blogssub = [];
 let podcastssub = [];
 
 let eventssub = [];
-
+//for preventing the subcategory self-cloning bug
 let newssubt = [];
 
 let blogssubt = [];
